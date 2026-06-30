@@ -24,7 +24,7 @@ O pipeline segue o padrão de camadas para garantir a qualidade e a confiabilida
 * **Self-Service Analytics:** Dashboards interativos e interface de IA (*Genie Workspace*) permitindo consultas em linguagem natural.
 
 ## 📂 Estrutura do Repositório
-```text
+``` text
 ├── metadata/          # Configuração dos metadados e tabelas de auditoria
 ├── ingestion/         # Notebooks para carregamento (Bronze/Silver)
 ├── transformation/    # Notebooks de transformação (Gold)
