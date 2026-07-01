@@ -1,6 +1,3 @@
-Este é um modelo de **README.md** estruturado para o seu projeto no GitHub, baseado no framework de engenharia de dados para o **Neo Bank** utilizando a arquitetura Medallion no Databricks.
-
----
 
 # Banking Data Engineering Framework: Medallion Architecture no Databricks
 
@@ -76,6 +73,3 @@ A pipeline mestra orquestra a ingestão simultânea de múltiplas fontes e, ao f
 3.  Configure os **Databricks Jobs** apontando para os notebooks de ingestão (Source to Silver) e transformações (Silver to Gold).
 4.  Acione o **Master Job** para processar os dados históricos e incrementais.
 
----
-**Autor:** [Seu Nome]
-*Projeto baseado no tutorial de Narendra Kumar (DataBeli).*
