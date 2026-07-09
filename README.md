@@ -1,6 +1,3 @@
-Com certeza! Abaixo está um modelo de **README.md** customizado para o seu projeto no GitHub. Ele reflete a estrutura técnica baseada nas fontes, focando na arquitetura de dados e nos dashboards, removendo as partes de e-mail e IA conforme solicitado.
-
----
 
 # Banking Data Engineering Framework: Medallion Architecture no Databricks
 
