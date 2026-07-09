@@ -46,7 +46,7 @@ Visão macro dos principais KPIs do banco.
 ### 2. Customer Insights
 Análise detalhada da base de clientes.
 *   **Visualizações:** Distribuição por segmento (High, Medium, Low value), perfil de risco de crédito (Pie Chart) e lista dos principais clientes por saldo.
-<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/a88a00cc-972d-400c-ba4e-0a8d9ff03ecf" />
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/344ce0d2-676e-4390-ac7b-eb27a3f20ea2" />
 
 
 
