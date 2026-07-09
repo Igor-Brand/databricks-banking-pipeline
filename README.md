@@ -68,6 +68,3 @@ Monitoramento técnico e operacional de transações.
 2.  **Setup:** Execute o notebook de configuração de metadados para criar o catálogo, schemas e tabelas de controle.
 3.  **Orquestração:** Configure o **Master Job** para executar sequencialmente as ingestões (SQL e Blob), as transformações para Gold e, por fim, o refresh automático dos dashboards.
 
----
-**Autor:** [Seu Nome]
-*Projeto baseado no framework de engenharia de dados end-to-end (DataBeli).*
