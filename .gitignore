@@ -1,0 +1,80 @@
+# =====================================================
+# Databricks Banking Pipeline - .gitignore
+# =====================================================
+
+# Credentials and Secrets
+*secret*.py
+*Secret*.py
+*password*.txt
+*credentials*.json
+*.env
+.env.local
+.env.*.local
+
+# Databricks notebooks with sensitive data
+*Setup_Secret*.py
+*setup_secret*.py
+00_Setup_Secret_Scope.py.ipynb
+
+# API Keys and Tokens
+*.key
+*.pem
+*.p12
+*.pfx
+
+# Database connection files
+*connection*.json
+*db_config*.py
+
+# Databricks specific
+.databricks/
+*.dbfs
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.cache
