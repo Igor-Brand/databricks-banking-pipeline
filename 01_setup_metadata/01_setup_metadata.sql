@@ -1,25 +1,15 @@
--- Databricks notebook source
 drop table if exists banking.metadata.tables;
 drop table if exists banking.metadata.table_parameters;
 drop table if exists banking.metadata.table_watermarks;
 drop table if exists banking.metadata.pipeline_runs;
 
--- COMMAND ----------
 
--- DBTITLE 1,Create Tables
--- =====================================================
--- CATALOG & SCHEMA
--- =====================================================
 
 CREATE CATALOG IF NOT EXISTS banking;
 
 CREATE SCHEMA IF NOT EXISTS banking.metadata;
 
 
--- =====================================================
--- 1️⃣ metadata.tables
--- Static registry of logical tables
--- =====================================================
 
 CREATE TABLE IF NOT EXISTS banking.metadata.tables (
     table_id            INT,
@@ -39,10 +29,6 @@ CREATE TABLE IF NOT EXISTS banking.metadata.tables (
 USING DELTA;
 
 
--- =====================================================
--- 2️⃣ metadata.table_parameters
--- Processing configuration (load type, PK, watermark)
--- =====================================================
 
 CREATE TABLE IF NOT EXISTS banking.metadata.table_parameters (
     table_id            INT,
@@ -54,7 +40,7 @@ USING DELTA;
 
 
 -- =====================================================
--- 3️⃣ metadata.table_watermarks
+-- 3. metadata.table_watermarks
 -- Stores last successful watermark per table
 -- =====================================================
 
@@ -69,7 +55,7 @@ PARTITIONED BY (table_id);
 
 
 -- =====================================================
--- 4️⃣ metadata.pipeline_runs
+-- 4. metadata.pipeline_runs
 -- Execution audit table
 -- =====================================================
 

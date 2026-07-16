@@ -25,24 +25,24 @@ dashboard_destination = f"{dashboards_folder}/NeoBank_Dashboard.lvdash.json"
 
 # Create dashboards folder if it doesn't exist
 os.makedirs(dashboards_folder, exist_ok=True)
-print(f"📁 Pasta criada/verificada: {dashboards_folder}")
+print(f"Pasta criada/verificada: {dashboards_folder}")
 
 # Copy dashboard file to Git repository
 shutil.copy2(dashboard_source, dashboard_destination)
-print(f"\n✅ Dashboard exportado com sucesso!")
-print(f"📊 Origem: {dashboard_source}")
-print(f"📂 Destino: {dashboard_destination}")
+print(f"\nDashboard exportado com sucesso!")
+print(f"Origem: {dashboard_source}")
+print(f"Destino: {dashboard_destination}")
 
 # Get file size
 file_size = os.path.getsize(dashboard_destination)
-print(f"📏 Tamanho do arquivo: {file_size:,} bytes")
+print(f"Tamanho do arquivo: {file_size:,} bytes")
 
 # COMMAND ----------
 
 # DBTITLE 1,Next Steps
 # Databricks notebook source
 # MAGIC %md
-# MAGIC ## ✅ Próximos Passos
+# MAGIC ## Proximos Passos
 # MAGIC 
 # MAGIC Após executar a célula acima:
 # MAGIC 1. Verifique se o arquivo foi criado em `dashboards/NeoBank_Dashboard.lvdash.json`
